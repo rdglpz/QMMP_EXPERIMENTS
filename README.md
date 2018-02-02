@@ -1,0 +1,1 @@
+QMMP_CODES
