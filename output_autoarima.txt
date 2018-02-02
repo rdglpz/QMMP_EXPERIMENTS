@@ -1,0 +1,84 @@
+[1] "1"                     ": ARIMA STRUCTURE for" "p10007.txt"           
+Read 8784 items
+Series: yTS 
+ARIMA(1,1,1) 
+
+Coefficients:
+         ar1     ma1
+      0.2062  0.2210
+s.e.  0.0318  0.0319
+
+sigma^2 estimated as 0.008108:  log likelihood=6077.29
+AIC=-12148.58   AICc=-12148.57   BIC=-12128.4
+[1] "2"                     ": ARIMA STRUCTURE for" "p10015.txt"           
+Read 8784 items
+Series: yTS 
+ARIMA(1,1,1) 
+
+Coefficients:
+         ar1     ma1
+      0.0823  0.3177
+s.e.  0.0290  0.0269
+
+sigma^2 estimated as 0.007103:  log likelihood=6483.85
+AIC=-12961.69   AICc=-12961.69   BIC=-12941.52
+[1] "3"                     ": ARIMA STRUCTURE for" "p10017.txt"           
+Read 8784 items
+Series: yTS 
+ARIMA(2,0,2) with non-zero mean 
+
+Coefficients:
+         ar1      ar2      ma1      ma2    mean
+      1.7560  -0.8424  -0.5818  -0.2847  0.3919
+s.e.  0.0077   0.0075   0.0131   0.0123  0.0016
+
+sigma^2 estimated as 0.00664:  log likelihood=6692.62
+AIC=-13373.23   AICc=-13373.22   BIC=-13332.89
+[1] "4"                     ": ARIMA STRUCTURE for" "p10026.txt"           
+Read 8784 items
+Series: yTS 
+ARIMA(2,1,4) 
+
+Coefficients:
+         ar1      ar2      ma1     ma2     ma3     ma4
+      1.6867  -0.7828  -1.6614  0.4397  0.2093  0.0173
+s.e.  0.0119   0.0117   0.0178  0.0279  0.0236  0.0148
+
+sigma^2 estimated as 0.006007:  log likelihood=6998.78
+AIC=-13983.56   AICc=-13983.54   BIC=-13936.5
+[1] "5"                     ": ARIMA STRUCTURE for" "p10095.txt"           
+Read 8784 items
+Series: yTS 
+ARIMA(2,1,0) 
+
+Coefficients:
+         ar1      ar2
+      0.4960  -0.1093
+s.e.  0.0127   0.0127
+
+sigma^2 estimated as 0.00613:  log likelihood=6936.62
+AIC=-13867.24   AICc=-13867.23   BIC=-13847.06
+[1] "6"                     ": ARIMA STRUCTURE for" "p10109.txt"           
+Read 8784 items
+Series: yTS 
+ARIMA(4,1,5) 
+
+Coefficients:
+         ar1     ar2     ar3      ar4      ma1      ma2      ma3     ma4     ma5
+      0.6533  0.1670  0.6415  -0.7236  -0.4081  -0.5666  -0.8692  0.5631  0.3246
+s.e.  0.0211  0.0283  0.0346   0.0217   0.0233   0.0255   0.0254  0.0143  0.0156
+
+sigma^2 estimated as 0.002396:  log likelihood=9826.24
+AIC=-19632.48   AICc=-19632.44   BIC=-19565.24
+[1] "7"                     ": ARIMA STRUCTURE for" "p10025.txt"           
+Read 8760 items
+Series: yTS 
+ARIMA(1,1,2) 
+
+Coefficients:
+          ar1     ma1     ma2
+      -0.3301  0.9990  0.3132
+s.e.   0.0880  0.0838  0.0462
+
+sigma^2 estimated as 0.006814:  log likelihood=6594.7
+AIC=-13181.4   AICc=-13181.39   BIC=-13154.51
