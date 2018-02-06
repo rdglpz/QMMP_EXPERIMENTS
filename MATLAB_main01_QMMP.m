@@ -259,7 +259,7 @@ fprintf("-----Results-----\n");
 metric = ["MAE", "RMSE", "MAPE"];
 for errorMetric = 1:length(metric)
     fprintf('\n %s \n',metric(errorMetric));
-    fprintf("Sector \t \t \t \t \t # \t \t QMMP+ \t \t Cal \t \t NN \t \t Naive\n");
+    fprintf("Sector \t \t \t \t \t # \t \t QMMP+ \t \t Cal \t \t NNME \t \t Naive\n");
     for i=1:nts
         sctr = FILE{i}.F;
         e1 = FILE{i}.PerformanceBayes(errorMetric);
@@ -271,7 +271,7 @@ for errorMetric = 1:length(metric)
 end
 
 fprintf("\n Variance \n")
-fprintf("Sector \t \t \t \t \t # \t \t QMMP+ \t \t Cal \t \t NN \t \t Naive\n");
+fprintf("Sector \t \t \t \t \t # \t \t QMMP+ \t \t Cal \t \t NNME \t \t Naive\n");
 for i=1:nts
     sctr = FILE{i}.F;
     e1 = var(FILE{i}.ResidualsBayes(:));
